@@ -28,9 +28,14 @@
 
 INFO :
 
-A python script to parse the rhythmbox library and mount the drives by mapping to the respective labels found in the XML library. A bash script to launch the script and rhythmbox
+A python script to parse the rhythmbox library and mount the drives by mapping to the respective labels found in the XML library. A bash script to launch the script and rhythmbox.
+
+
+MAKE sure you have disk labels on each of the drives in which the music content is placed or else this will not work.
+ 
 
 INSTALL:
+
 1) Place the mountRB with the mountRB.py and mountRB.sh folder anywhere
 2) right click on the gnome panel (on the top usually) and click Add to Panel
 3) Click on Custom Application Launcher 
@@ -41,4 +46,6 @@ sh /<path>/mountRB/mountRB.sh
 
 Change the icon to the rhythmbox.png (not a good artist to make my own icon)
 
+
+Tested this on UBUNTU LUCID LYNX 
 NJOY !!!
