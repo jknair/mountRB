@@ -1,0 +1,45 @@
+
+#**** BEGIN LICENSE BLOCK *****
+# Version: GPL 3.0
+# 
+# The Original Code is mountRB code.
+# 
+# The Initial Developer of the Original Code is Jayakrishnan B Nair
+# Portions created by the Initial Developer are Copyright (C) 2009-2010.
+# All Rights Reserved.
+# 
+#
+# Script to mount drives from the Rhythmbox library  
+#    Copyright (C) 2010 Jayakrishnan B Nair <jayakrishnan.bk.nair@gmail.com>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#**** END LICENSE BLOCK *****
+
+INFO :
+
+A python script to parse the rhythmbox library and mount the drives by mapping to the respective labels found in the XML library. A bash script to launch the script and rhythmbox
+
+INSTALL:
+1) Place the mountRB with the mountRB.py and mountRB.sh folder anywhere
+2) right click on the gnome panel (on the top usually) and click Add to Panel
+3) Click on Custom Application Launcher 
+4) Select Application in teh drop down menu, name : mountRB
+and the command 
+sh /<path>/mountRB/mountRB.sh 
+5)CLOSE
+
+Change the icon to the rhythmbox.png (not a good artist to make my own icon)
+
+NJOY !!!
